@@ -5,10 +5,163 @@
     <title>Hi</title>
 </head>
 <body>
-    <p>test</p>
+    <!-- Top Menu -->
+    <div class="Top_Menu">
+      <center>
+        <!-- Hyperlink for Home -->
+        <a href="index.html" class="homehyperlink"><button class="homebtn">Home</button></a>
+        <!-- /Hyperlink for Home -->
+        <!-- Hyperlink for Dev -->
+        <a href="development.html" class="devHyperlink"><button class="devbtn">Development</button></a>
+        <!-- Hyperlink for Release -->
+        <a href="versionhistory.html" class="releaseHyperlink"><button class="releasebtn">Version History</button></a>
+        <!-- Hyperlink for mods -->
+        <a href="mods.html" class="modsHyperlink"><button class="modsbtn">Mods</button></a>
+        <!-- Hyperlink for Redstone -->
+        <a href="entities.html" class="redstoneHyperlink"><button class="redstonebtn">Entities</button></a>
+        <!-- My Disc -->
+        <a href="Discord.html" class="discHyperlink"><button class="discbtn">Discord</button></a>
+        <!-- Official Website -->
+        <a href="https://minecraft.net" class="WebsiteHyper"><button class="OfficialSite">Official Website</button></a>
+        <!-- /Official website -->
+      </center>
+    </div>
 </body>
 </html>
 
 <style>
+.homebtn, .redstonebtn, .devbtn, .OfficialSite, .dropbtn, .releasebtn, .modsbtn, .discbtn, .infobtn, .creditBtn{
+  background-color: #ff8a05;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
+/*Hyperlinks*/
+.WebsiteHyper, .homehyperlink, .redstoneHyperlink, .releaseHyperlink, .modsHyperlink, .discHyperlink, .infoHyperlink, .creditHyper{
+  color: white;
+  font-size: 100;
+  display: inline-block;
+}
+
+/*Buttons on hover*/
+.redstonebtn:hover, .OfficialSite:hover, .devbtn:hover, .homebtn:hover, .releasebtn:hover, .modsbtn:hover, .discbtn:hover, .infobtn:hover, .creditBtn:hover{
+  background-color: #cf6e00;
+}
+
+/*Background of site*/
+.background{
+  background-color: rgba(0,0,10,0.5);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Light Gray Text*/
+.lightGrayText{
+  color: lightgray;
+  font-size: 25px;
+}
+
+/*Logo formatting*/
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Image formatting*/
+.image{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Indentation*/
+.indent{
+  margin-left: 40px;
+}
+
+/*Center of text*/
+.center{
+  color: lightgray;
+}
+
+/*Home Text Body*/
+.homeTextBody{
+  color: lightgray;
+  position: relative;
+  text-align: justify;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 25px
+}
+
+/*Top menu*/
+.Top_Menu{
+  background-color: #ff8a05;
+}
+
+/*Home text*/
+.homeTextHeader{
+  color: lightgray;
+  display: block;
+  font-size: 60px;
+  position: relative;
+}
+
+/*Top Menu*/
+.Wholesite{
+  background-color: #333;
+  overflow-x: hidden;
+  background-image: url(Background.png);
+  overflow-x: auto;
+}
+/* Dropdown Positioning */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #ff8a05;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+/* Dropdown Click*/
+.dropbtn:focus{
+  background-color: #cf6e00
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #cf6e00;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #cf6e00;}
+.header {
+  position: relative
+  background-color: black
+}
 </style>
