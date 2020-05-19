@@ -10,7 +10,7 @@
     <div class="Top_Menu">
         <!-- Hyperlink for Home -->
         <a href="home.html" class="homeHyperlink"><button class="homebtn">Home</button></a>
-        <a href="-" class="hyperlink"><button class="btn w3-right">test</button></a>
+        <a href="-" class="test"><button class="testbtn">test</button></a>
     </div>
     <div class="homeBody">
         <p>HI</p>
@@ -23,7 +23,7 @@
 <style>
     /*Button for current page*/
     /*Button Stuff*/
-    .homebtn, .btn{
+    .homebtn, .testbtn{
         background-color: #1E90FF;
         color: white;
         padding: 16px;
@@ -35,18 +35,13 @@
         overflow: hidden;
     }
     /*Hyperlink stuff*/
-     .homeHyperlink, .hyperlink{
+     .homeHyperlink, .test{
         color: white;
         font-size: 100;
         display: inline-block;
     }
-
-    /*Hyperlink stuff for right*/
-    .hyperlink{
-        text-align:right!important
-    /*Buttons on hover*/
-     .homebtn:hover, .btn:hover{
-        background-color: #80c0ff;
+    .test{
+        float: right;
     }
 
     /*Top menu*/
