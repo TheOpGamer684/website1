@@ -10,18 +10,22 @@
     <div class="Top_Menu">
         <!-- Hyperlink for Home -->
         <a href="home.html" class="homeHyperlink"><button class="homebtn">Home</button></a>
+        <!-- Hyperlink for Discord -->
         <a href="discord.html" class="discordHyperlink"><button class="discordbtn">Discord</button></a>
     </div>
+    <!-- The entire website -->
     <div class="wholesite">
-        <p>Welcome to my website! This website is currently in ALPHA stage, so don't expect the website to be anything good lol</p>
+        <!-- Header -->
+        <h1 class="homepageHeader">Welcome to my website! This website is currently in <span>A</span><span>L</span><span>P</span><span>H</span><span>A</span> stage, so don't expect the website to be anything good lol</h1>
     </div>
 </body>
 </html>
+<!-- Javascript goes here -->
 <script>
 
 </script>
 <style>
-    /*Button Stuff*/
+    /*Button Formattingf*/
     .homebtn, .discordbtn{
         background-color: #1E90FF;
         color: white;
@@ -34,28 +38,37 @@
         overflow: hidden;
     }
 
-    /*Hyperlink stuff*/
+    /*Hyperlink Formatting (L)*/
      .homeHyperlink, .discordHyperlink{
         color: white;
         font-size: 100;
         display: inline-block;
     }
 
-    /*Hyperlinks for RIGHT*/
+    /*Hyperlink Formatting (R)*/
     .discordHyperlink{
         float: right;
     }
 
-    /* On Hover*/
+    /*Buttons On Hover (Colour change)*/
     .homebtn:hover, .discordbtn:hover{
         background-color: #6ab1f7;
     }
-    /*Top menu*/
+
+    /*Top bar colour*/
     .Top_Menu{
         background-color: #1E90FF;
     }
+
+    /*Entire Site formatting*/
     .wholesite{
         overflow-y: scroll;
         overflow-x: hidden;
+    }
+
+    /*Home page header*/
+    .homepageHeader{
+        text-align:center;
+        font-size: 20px;
     }
 </style>
