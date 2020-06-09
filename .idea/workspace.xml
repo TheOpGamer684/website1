@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14a3142c-05e9-4b21-b30c-419aa121853a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +47,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589709282430</updated>
-    </task>
-    <task id="LOCAL-00012" summary="o">
-      <created>1589862889005</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1589862889005</updated>
     </task>
     <task id="LOCAL-00013" summary="o">
       <created>1589862942868</created>
@@ -390,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591613156697</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="HTML(5) for home page">
+      <created>1591661546888</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1591661546889</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
